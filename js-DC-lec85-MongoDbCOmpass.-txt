@@ -1,0 +1,62 @@
+MongoDb Tutorial: MongoDb Compass & Installing Mongoose | Web Development Tutorials #85
+
+
+
+//mongoose - wopuld help us with node js directly to work with mongodb directly 
+
+// mongo db compass -> a  gui ??
+\
+//open nmmongo db compass while mongodb running
+//mongo db compasss is basically teh gui for mongodb 
+// wohi jo shell me commands krte ho wahi aap gui me bh9i krskte ho without getting into coding ..
+// just like any sqlquery !
+
+// momngo db compasss se bhi u can make a document , colelction all the other sasme thinmghs that wedid ont he terminal . 
+
+// the running mongodb file is the main file that shoul;d work -- whicgh can be connected to anuything 
+>like forexample >mongosh/mongose -> which would comnnect it to python 
+pymong..  -> which wiouyld connect it to the python\
+> at the moment we haev connected it he mongodb compass 
+
+
+
+----------
+mongo db compass
+----------
+
+// if you w ant to insert as data
+insert data -> insert fdocument -> 
+
+
+
+// you can even custom search or filte4r your database 
+{ rating:5 }  - for example 
+so the row/doxcumenty with rating 5 will appear automatically
+
+//mogo db would be use dwith node js -> nuti how ill we connect it ->>> mongosh 
+
+---------------------
+mongoose
+---------------------
+
+
+- would help in connecting mogodb with nodejs 
+
+-make a new folder -> mongooseLec
+- in that folder do npm init 
+- make index.js file
+- npm install mongoose
+mongoose wou7ld come under dependencies 
+- version has successfully installed in the mogosseLec folder present inthe.json fiel 
+
+
+
+--  how to connectwith the mogodb from node js file is shown in index.js in the mongooseLec foldeer present in this samae directoty 
+
+
+
+
+
+
+
+

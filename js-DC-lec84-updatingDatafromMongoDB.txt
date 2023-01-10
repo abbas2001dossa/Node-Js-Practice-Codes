@@ -1,0 +1,24 @@
+MongoDb Tutorial: Updating data from the Mongo Database | Web Development Tutorials #84
+
+
+// crud -> create read update delete -- most basic operations that a db can make \
+
+// the==>   db.anotherCollection
+            .anotherCollection ==> is the name of a coleectoion where you wouyld insert a documen tor a row 
+
+
+> db.items.find()  -> iotem collection ki documnets ya rows ka pribnt krega console pe [
+
+]
+
+> // to uopdate 
+it would have two args => jisko uodate krna he ansd uski jagakya uodate krna he ?? 
+db.items.uopdateOne( {name: "Moto"} , { $set: {price: 20}} )
+//price ko krdo 2 rupay 
+//agr multipole ho to sirf pehla wala ki uudoate hogi ( agr mutliple ho of name moto)
+
+
+// to uopdate -> by  using many 
+
+>db.items.updateMany( {name: "moto"} , {$set: { price:3 , rating:1}} )
+//with the help of thsi with a name moto -> two things would be able to get updated !

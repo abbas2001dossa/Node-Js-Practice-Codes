@@ -1,0 +1,70 @@
+// MongoDb Tutorial: Inserting data into the Mongo Database | Web Development Tutorials #81
+
+
+
+//inserting data into mongodb 
+// use harry -
+// > would make a new data base and use that
+
+use harry
+
+// made a collection and inserted a document inside it or a row in a table 
+db.items.insertOne({name: "samsubng" , "price":23232 , "rating":4.5  , qty:23})
+
+
+// to insert many items or many rows or many documents 
+
+db.items.insertMany([  {name: "samsubng" , "price":23232 , "rating":4.5  , qty:23}],
+{name: "samsubng" , "price":23232 , "rating":4.5  , qty:23},
+{name: "samsubng" , "price":23232 , "rating":4.5  , qty:23} ])
+
+
+//if youw want to find the items in a database 
+
+db.items.find()
+
+
+// to see all the dbs
+show dbs
+
+
+// when u use mongo -> chaloge mongodb
+//ye process store krta he data sirectory me 
+// like if u disconnect the mongodb and connectafter a while it would auto be saved in it 
+
+
+// to paste -> u juust have to right click 
+
+
+//mongo gives a uniqyue object id to each item which waas added 
+
+//#@#&&*(%)      you will write all this in the mogho shell _+(+)&*_(&(%^*$%^$#^#))
+// the mongo dbn uses by default a test named db 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

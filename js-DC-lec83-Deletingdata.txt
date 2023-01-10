@@ -1,0 +1,30 @@
+MongoDb Tutorial: Deleting data from the Mongo Database | Web Development Tutorials #83
+
+
+// sary documents/objects/items/rows ko dekhne ke liye 
+db.items.find()
+
+
+//search 
+db.items.find( { price:3434 })
+
+
+//deleting items from the mongo db server 
+
+db.items.deleteOne({ price:2000})
+
+//will delete the ematching entry and the first ebntry in terms of a match in data provided in parameters
+
+// to delete multiple documents / objects 
+db.items.deleteMany({price:129000})
+
+
+// you can find your items that have they really been deleted or nto 
+db.items.find  ....
+
+
+
+
+
+
+

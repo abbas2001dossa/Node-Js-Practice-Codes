@@ -1,0 +1,9 @@
+// htmls and css -> making a dashboard for corona virus 
+// stuff like kaha pe kitna cases huye hen etc. 
+
+// using javascripts mapbox and fetch api-> uopdating new and new data ! 
+
+// we will use js ka mapbox -> online maps provider ! 
+// we will do all this in anew project folder named as corona map 
+
+// corona map projecty 4 

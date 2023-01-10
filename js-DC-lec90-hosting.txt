@@ -1,0 +1,20 @@
+
+> in  digital ocean 
+    droplet:- is a server in terms of digital ocean wordings 
+    - when u create a droplet - u have different disttributions - ubuntu etc
+    - select ubuntu - 18
+    - 5$
+    - datacenter -> if you are choosing from india, choose a datacenter close to it , whatever your users are clsoe to it 
+    - choose your hostnaem -> abbasSite
+    - when a droplet is in making -> its only a droplet which would sent a pass on email when done 
+    ip address would be sent 
+    - you can login to that droplet 
+    via console
+    - login as root 
+    - enter your pass.
+    - put it again 
+    - u can enter a new pass if you want 
+    - retype that ! 
+    - now yourubvutu computer is ready - this computer is on a database 
+    - u can literally do anything with this computer 
+    - this console wont be used and instewae of that a softwrae would be used 

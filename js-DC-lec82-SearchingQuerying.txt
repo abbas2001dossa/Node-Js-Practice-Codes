@@ -1,0 +1,56 @@
+MongoDb Tutorial: Searching/Querying data from the Mongo Database | Web Development Tutorials #82
+
+
+if you want to query a adatabse 
+- write =>
+
+
+//with this -> thsi will find the column that consists ==>  price: 3.5 <==
+- db.item.find({price: 3.5})
+
+
+_++   SEARCHING DATA IN MONGO DB 
+
+use harry
+db.items.find({rating:3.5})
+// this is the filtrer objevctinside the parameters of .find
+
+
+// we can find all thsoe ratings// and all tohse complete objects     -- that are greater than 3.5 
+db.items.find({rating: {$gt: 3.5}}   )
+
+
+// if you want a queary rating  greater than 3000 and price greater to []
+
+db.items.find(rating : {$gt: 3.5}  ,  price : {$gt: 4000})
+//   and ->    ,
+// les than :::     lt
+//or  ->       
+
+db.items.find({ 
+    $or:[{rating: {$lt: 3.5}}, {price:{$gt: 114000}}] 
+
+})
+
+
+
+// and ->    AND  -> me aesa kuch nhi hota  
+
+
+
+
+//if you want tos earch everything but want only one output like raiting for examople 
+db.items.find({rating: {$gt: 3.5}}, {rating: 1})
+
+
+
+
+
+
+
+
+
+
+//    
+
+

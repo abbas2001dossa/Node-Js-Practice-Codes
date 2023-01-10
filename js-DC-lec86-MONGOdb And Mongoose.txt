@@ -1,0 +1,58 @@
+-check mongooses documentation 
+
+-mongoose docs
+
+mongoose chalaane ke liye ->
+.//steps 
+
+> npm install mongoose
+// idd it in index.js \ which is in mongooseLec folder ~ 
+
+
+> if your node modules are deleted or tehy havent been installed yet; you can install them by 
+" npm install "
+//done in that fodler 
+
+//sath me you hvae to keep the mongodb server running on your [pc which ios present on desktop ]
+
+> node index.js chala do XD -
+[ when the output approaches ass we are vconnected dudes ]
+
+> now open mongo shell which is[present on yiour desktop ]
+- and write  "use harry" database - since we have that databse presene with uys 
+
+> now lets c ; how can we save data into mongodb 
+-mongoose connects with mongodb 
+
+> once you have secured a connection with the mongodb( byt he help of mongoose script/language/code ) ;
+u need to make a schema 
+
+>  make a schema in index.js .
+// add a function in index.js2;
+
+> what is schema ?
+- its a layer of mongoose on top of mongodb ; which helps our validation and whatdat goes into mongodb.
+very important.
+-when u inuopt values in mongiodb ; schema will b elocked and would be locked thus wont be able to change.
+
+> this schema actually makes a model (compiles into one )
+
+> once u have made a module like mentionied aboave 
+- u can make objects which would help top add in your documents
+- as shown in index2.js 
+
+
+
+
+.//
+
+
+
+
+//whne u work with mongoose u wont -> do it monogshell 
+even the findfucnitionb in shell ui would do that in the node js termainal 
+
+
+
+
+>  CHECK INDEX 2 .JS       IN M,OGOOSELEC FODLER 

@@ -1,0 +1,36 @@
+> how to host  a website 
+    clietn sends a  request to the web server 
+    the response is a website (of html css js files - frontend )
+
+    - we need a webserver for hosting 
+    - we should have certain access given only to us 
+    - the hosting website would givwe u an admin panel. from whichucould manage your website .
+    - check godaddy.com
+    - domain is for eg the ->    codewithrohan.com ||  nuces.com
+    - you can create or choose your own domain but that doesnt mean yiou have achieved the hosting
+    - if u buy that domain that name wouldbe for you 
+    -once u havedomain u need a server which has a certain ip address
+    - uski oehcahn hoti hwe pata hota he - ipaddress
+    - godaddy can link the domain to the ipaddress but we can without that too as well
+    - theres other too :- namecheck , backrog / rob etc , amazon , hostgator  
+
+    - server is a physical machine which is connected to the internet.
+    - all the big companies have their data center :- amazon etc where theyh have kept and stored data i9n physical machines 
+
+
+    - vps (virtaul private server ):- how to deploy a vps 
+    
+    
+    SOME COMPANIES 
+    - GCP (google cloud platform ):- also provides a vps
+    - AWS  ( Amazon Web Services ):-
+    - DIgital ocean ( if u only want to make a server )
+        > windows server is not free
+        > tho linux sevrer (open source is free)
+    - vultr 
+
+
+
+
+    > we will use digital ocena to make a ubuntu com-puter and put files in  that
+    
